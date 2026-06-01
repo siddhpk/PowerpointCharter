@@ -31,8 +31,6 @@ When PowerPoint charts are unlinked from their underlying Excel data sheets (oft
    - `output_pptx/`
 3. Place the problematic PowerPoint presentations inside the `input_pptx/` folder.
 
-> **Important Note:** For optimal processing stability and to ensure Microsoft PowerPoint can gracefully handle generating fresh underlying error caches, it is highly recommended to limit processed presentations to **3-5 slides max** at a time.
-
 ### Running the Script
 Open the notebook in your favored Jupyter environment (VS Code, JupyterLab, etc.) and run all cells sequentially. The script will automatically process all `.pptx` files and output the repaired versions in your `output_pptx/` folder.
 
